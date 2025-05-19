@@ -12,11 +12,12 @@ Implementación del ejemplo Cancer1 usando Multi Expression Programming X (MEPX)
 El análisis se realizó utilizando Multi Expression Programming X (MEPX) en el conjunto de datos "Cancer1" para un problema de clasificación binaria. El sistema evolucionó durante 26 generaciones, generando un programa de clasificación automática mediante programación genética.
 
 - Rendimiento del Modelo
-  - - Métricas Principales
-Métrica	Entrenamiento (%)	Validación (%)	Test (%)
-Mejor resultado	2.5714	1.7143	1.1494
-Promedio	2.8242	2.4176	2.4315
-Desviación estándar	±0.1829	±0.4835	±0.5118
+   - Métricas Principales
+Métrica	              Entrenamiento (%)	  Validación (%)	  Test (%)
+Mejor resultado  	    2.5714	            1.7143	          1.1494
+Promedio	            2.8242	            2.4176	          2.4315
+Desviación estándar	  ±0.1829	            ±0.4835	          ±0.5118
+
 2.2 Análisis de Errores
 Total de muestras evaluadas: 350
 

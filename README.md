@@ -1,17 +1,26 @@
-# Tarea de Programación Genética
-**Curso:** Inteligencia Artificial y Mini-Robots  
-**Autor:** David Camilo Guzmán Guerrero  
-**Fecha de Entrega:** Mayo 2025  
-**Repositorio:** [Enlace a GitHub](https://github.com/lmao813/Tarea_ProgramacionGenetica)  
+# 🤖 Tarea de Programación Genética
+Curso: Inteligencia Artificial y Mini-Robots  
+Autor: David Camilo Guzmán Guerrero  
+Fecha de Entrega: Julio 2025  
+Repositorio: Enlace a GitHub [Enlace a GitHub](https://github.com/lmao813/Tarea_AutomatasCelulares) 
 
-## Contenido  
-- **Ejercicio 1:** Descargue MEPX, https://www.mepx.org/, estúdielo y corra uno de los ejemplos que trae.  
-**Objetivo:** Familiarizarse con la herramienta MEPX para Programación Genética (PG), entender su interfaz, y aplicar los conceptos básicos de PG en un problema real de clasificación ("Cáncer 1").  
-**Complejidad:** Requiere configuración inicial y comprensión de los parámetros de PG, pero el ejemplo guiado facilita el aprendizaje.  
-**Relevancia:** Permite experimentar con PG en un entorno controlado, introduce el uso de herramientas especializadas en evolución de programas y es útil para aplicaciones en machine learning y análisis de datos.  
+## 📚 Contenido
 
-- **Ejercicio 3:** Suponga que tiene un robot que le entrega galletas al grupo de ingenieros de diseño de robots. Programe por PG el recorrido del robot, teniendo en cuenta que cada vez que un ingeniero recibe una galleta gana puntos. Los ingenieros están distribuidos en una sala cuadrada. Defina, conjunto de terminales, conjunto de funciones y función de aptitud.  
-**Objetivo:** Diseñar un sistema basado en PG para optimizar la ruta de un robot repartidor, maximizando la entrega de galletas a ingenieros distribuidos en un espacio 2D.  
-**Complejidad:** Requiere definir estructuras de árboles para comportamientos, simular movimientos y diseñar una función de aptitud balanceada.  
-**Relevancia:** Aplicación práctica de PG en robótica y planificación de trayectorias, es un ejemplo de cómo optimizar comportamientos autónomos mediante evolución, además es la base para problemas más complejos como enjambres de robots o logística automatizada.
+- **Ejercicio 2:** Diseño evolutivo de un codificador de 7 segmentos  
+Se implementó un sistema basado en programación genética para encontrar las expresiones booleanas que activan correctamente los segmentos de un display de 7 segmentos.
+Para cada segmento (a-g), se evoluciona una expresión lógica que decide cuándo debe estar encendido, usando combinaciones de las entradas binarias A, B, C y D (que representan los números del 0 al 9).
 
+- Conjunto de terminales: A, B, C, D, constantes 0 y 1
+- Conjunto de funciones: and, or, not, xor
+- Función de aptitud: número de salidas correctas respecto al valor esperado del segmento
+
+* Nota: Se usó la librería DEAP para construir árboles sintácticos que representan las expresiones booleanas, y se obtuvo una expresión optimizada para cada segmento.
+
+- **Ejercicio 3:** Robot repartidor de galletas  
+Se simuló un entorno 10x10 con ingenieros ubicados aleatoriamente y un robot encargado de repartir galletas. El objetivo es que el robot visite el mayor número posible de ingenieros en 50 pasos, aprendiendo su comportamiento mediante programación genética.
+
+- Conjunto de terminales: acciones arriba, abajo, izquierda, derecha
+- Conjunto de funciones: if_then_else, operadores aritméticos y condicionales
+- Función de aptitud: número de ingenieros visitados durante el recorrido
+
+* Nota: Se visualizó la trayectoria del robot en una matriz con colores distintos para ingenieros, posiciones visitadas y celdas libres. El mejor individuo fue capaz de alcanzar hasta 5 ingenieros.

@@ -1,4 +1,4 @@
-# 🤖 Tarea de Programación Genética
+# 🧬 Tarea de Programación Genética
 Curso: Inteligencia Artificial y Mini-Robots  
 Autor: David Camilo Guzmán Guerrero  
 Fecha de Entrega: Julio 2025  

@@ -1,8 +1,8 @@
 # 🧬 Tarea de Programación Genética
-Curso: Inteligencia Artificial y Mini-Robots  
-Autor: David Camilo Guzmán Guerrero  
-Fecha de Entrega: Julio 2025  
-Repositorio: [Enlace a GitHub](https://github.com/lmao813/Tarea_ProgramacionGenetica) 
+**Curso:** Inteligencia Artificial y Mini-Robots  
+**Autor:** David Camilo Guzmán Guerrero  
+**Fecha de Entrega:** Julio 2025  
+**Repositorio:** [Enlace a GitHub](https://github.com/lmao813/Tarea_ProgramacionGenetica) 
 
 ## 📚 Contenido
 
